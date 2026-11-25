@@ -1,0 +1,55 @@
+{
+  "flows": [
+    {
+      "channel": "Meta",
+      "ad": "Looking for the park-ups like this?",
+      "headline": "Quiet, beautiful park-ups like this",
+      "paywall_opens_on": "your photo grid and Satellite View: “See every wild spot from above”, 1 year at $19.99 preselected",
+      "note": "asks only “What type of camping spots do you prefer?” and opens a park-up on the map before any form"
+    },
+    {
+      "channel": "Meta",
+      "ad": "Imagine finding a spot like this for tonight",
+      "headline": "Find a spot like this for tonight",
+      "paywall_opens_on": "the free week day by day (Today, Day 5, Day 7) with “A spot for your campervan, every night”",
+      "note": "asks “What type of camper are you traveling in?” and shows three spots that fit, nearest first, with Navigate"
+    },
+    {
+      "channel": "Meta",
+      "ad": "Want to wake up here for free?",
+      "headline": "Wake up here. Finding it is free.",
+      "paywall_opens_on": "your Free vs Premium table: “Wake up by the sea. The spots stay free.”",
+      "note": "turns on your own “Show only free spots” filter and shows a free spot before any price"
+    }
+  ],
+  "prices": {
+    "yearly": "$19.99",
+    "three_months": "$9.99",
+    "offer_yearly": "$9.99",
+    "trial": "1 week",
+    "source": "US App Store listing, In-App Purchases (“StayFree Premium 1 Year” $19.99 and $9.99, “StayFree Premium 3 months” $9.99); their onboarding paywall (“Try 1 week for free. Then $19.99 / year”)"
+  },
+  "today": {
+    "text": "every install sees the same “Discover 150,000+ camping spots”, three setup screens, a notifications prompt and a required sign-up, then “Camp better with StayFree Premium” with the year shown as $1.67 per month",
+    "source": "audit_frames"
+  },
+  "asks": [
+    "What type of camping spots do you prefer?",
+    "What type of camper are you traveling in?",
+    "How should we call you?"
+  ],
+  "paywall": {
+    "headline": "Camp better with StayFree Premium",
+    "uses_answers": false
+  },
+  "rebuild": "each Meta ad opens its own first launch: one question, a spot before any form, a paywall that names their answer at the prices billed, one offer on close, and the account asked for last",
+  "ideas": [
+    {"n": 1, "title": "A spot before any form", "screen": "First spot", "outcome": "CR +10–20%"},
+    {"n": 2, "title": "Name their answer on the paywall", "screen": "Paywall", "outcome": "CR +10–15%"},
+    {"n": 3, "title": "Ask for the account last", "screen": "Account", "outcome": "CR +5–10%"},
+    {"n": 4, "title": "Show the year as $19.99, not $1.67", "screen": "Paywall", "outcome": "ARPU +5–10%"},
+    {"n": 5, "title": "Catch the ones who close", "screen": "If they close", "outcome": "CR +5–10%"}
+  ],
+  "languages": ["en", "de"],
+  "live_url": "https://eddieatadapty.github.io/stayfree-flow-rebuild/"
+}
